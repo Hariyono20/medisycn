@@ -1,1 +1,1 @@
-# medisycn adalah aplikasi pertama saya
+# medisycn adalah aplikasi pertama saya adalah
