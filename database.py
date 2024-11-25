@@ -6,7 +6,7 @@ def create_connection():
     try:
         connection = mysql.connector.connect(
             host='localhost',
-            database='MediSycn',  
+            database='mediSycn',  
             user='root', 
             password=''  
         )
@@ -34,8 +34,8 @@ def create_table():
             id INT AUTO_INCREMENT PRIMARY KEY,
             name VARCHAR(255) NOT NULL,
             email VARCHAR(255) NOT NULL UNIQUE,
-            phone VARCHAR(20) NOT NULL,
             password VARCHAR(255) NOT NULL
+                       
         )
         """)
         connection.commit()
